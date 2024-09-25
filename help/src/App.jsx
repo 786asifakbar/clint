@@ -29,6 +29,7 @@ import ITDepartmentMember from './pages/ITDepartmentMember';
 import JobSeekerForm from './pages/JobSeekerForm';
 import LegalAidCommunityMember from './pages/LegalAidCommunityMember';
 import MainLayout from './pages/PageOfEdu'
+
 const App = () => {
   return (
     <>  
