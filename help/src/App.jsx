@@ -1,4 +1,4 @@
-import {Route, Routes } from 'react-router-dom';
+import {BrowserRouter , Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -22,6 +22,7 @@ import Orphans from './pages/Orphans'
 const App = () => {
   return (
     <>  
+    <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -41,7 +42,8 @@ const App = () => {
           <Route path="/OurMember" element={<OurMember />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
-<Footer />
+        <Footer />
+         </BrowserRouter>
     </>
   );
 }
