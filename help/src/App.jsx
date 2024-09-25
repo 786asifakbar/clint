@@ -29,7 +29,7 @@ import ITDepartmentMember from './pages/ITDepartmentMember';
 import JobSeekerForm from './pages/JobSeekerForm';
 import LegalAidCommunityMember from './pages/LegalAidCommunityMember';
 import MainLayout from './pages/PageOfEdu'
-
+import HelpProjects from './pages/HelpProjects';
 const App = () => {
   return (
     <>  
@@ -62,7 +62,9 @@ const App = () => {
                     <Route path="/ITDepartmentMember" element={<ITDepartmentMember/>} />
                       <Route path="/JobSeekerForm" element={<JobSeekerForm/>} />
                         <Route path="/LegalAidCommunityMember" element={<LegalAidCommunityMember/>} />
-          <Route path="/Contact" element={<Contact />} />
+                        <Route path="/HelpProjects" element={<HelpProjects/>} />
+        
+        <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
          </BrowserRouter>

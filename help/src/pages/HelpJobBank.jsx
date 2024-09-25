@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import HiringForm from './HiringForm';
+import HiringRequestForm from './HiringForm';
 import JobSeekerForm from './JobSeekerForm';
 
 const HelpJobBank = () => {
@@ -33,7 +33,7 @@ const HelpJobBank = () => {
 
       {/* Conditionally Render Forms */}
       {showForm === 'jobseeker' && <JobSeekerForm />}
-      {showForm === 'hiring' && <HiringForm />}
+      {showForm === 'hiring' && <HiringRequestForm />}
 
       {/* Add a "Back" Button to return to the main selection */}
       {showForm && (
