@@ -18,7 +18,17 @@ import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer';
 import ChildrenHospital from './pages/ChildrenHospital';
 import Orphans from './pages/Orphans'
-
+import Carousel from './pages/Carousel';
+import CenterExecutiveCommunityMember from './pages/CenterExecutiveCommunityMember';
+import SuportPage from './pages/SuportPage';
+import EducationCommunityMember from "./pages/EducationCommunityMember";
+import FundRaisingCommunityMember from './pages/FundRaisingCommunityMember';
+import HealthCommunityMember from './pages/HealthCommunityMember';
+import HiringRequestForm from './pages/HiringForm';
+import ITDepartmentMember from './pages/ITDepartmentMember';
+import JobSeekerForm from './pages/JobSeekerForm';
+import LegalAidCommunityMember from './pages/LegalAidCommunityMember';
+import MainLayout from './pages/PageOfEdu'
 const App = () => {
   return (
     <>  
@@ -40,6 +50,17 @@ const App = () => {
           <Route path="/Orphans" element={<Orphans/>} />
           <Route path="/DonationForm" element={<DonationForm />} />
           <Route path="/OurMember" element={<OurMember />} />
+          <Route path="/Carousel" element={<Carousel/>} />
+          <Route path="/CenterExecutiveCommunityMember" element={<CenterExecutiveCommunityMember/>} />
+          <Route path="/SuportPage" element={<SuportPage/>} />
+          <Route path="/PageOfEdu" element={<MainLayout/>} />
+            <Route path="/EducationCommunityMember" element={<EducationCommunityMember/>} />
+              <Route path="/FundRaisingCommunityMember" element={<FundRaisingCommunityMember/>} />
+                <Route path="/HealthCommunityMember" element={<HealthCommunityMember/>} />
+                  <Route path="/HiringRequestForm" element={<HiringRequestForm/>} />
+                    <Route path="/ITDepartmentMember" element={<ITDepartmentMember/>} />
+                      <Route path="/JobSeekerForm" element={<JobSeekerForm/>} />
+                        <Route path="/LegalAidCommunityMember" element={<LegalAidCommunityMember/>} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
