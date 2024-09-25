@@ -3,17 +3,17 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import OurMember from './pages/OurMember';
-import Contact from "./pages/Contact"
+import Contact from "./pages/Contact";
 import ShadiMubark from './pages/ShadiMubark'
 import FoodAid from './pages/FoodAid';
 import HelpEducation from './pages/HelpEducation';
 import Health from './pages/Health';
-import WaterPlant from './pages/WaterPlant'
+import WaterPlant from './pages/WaterPlant';
 import MedicineCharity from './pages/MedicineCharity';
 import DonationForm from './pages/DonationForm';
-import HelpJobBank from './pages/HelpJobBank'
-import LegalAid from './pages/LegalAid'
-import OldAgeHome from './pages/OldAgeHome'
+import HelpJobBank from './pages/HelpJobBank';
+import LegalAid from './pages/LegalAid';
+import OldAgeHome from './pages/OldAgeHome';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer';
 import ChildrenHospital from './pages/ChildrenHospital';
@@ -28,7 +28,7 @@ import HiringRequestForm from './pages/HiringForm';
 import ITDepartmentMember from './pages/ITDepartmentMember';
 import JobSeekerForm from './pages/JobSeekerForm';
 import LegalAidCommunityMember from './pages/LegalAidCommunityMember';
-import MainLayout from './pages/PageOfEdu'
+import MainLayout from './pages/PageOfEdu';
 import HelpProjects from './pages/HelpProjects';
 const App = () => {
   return (
@@ -63,7 +63,6 @@ const App = () => {
                       <Route path="/JobSeekerForm" element={<JobSeekerForm/>} />
                         <Route path="/LegalAidCommunityMember" element={<LegalAidCommunityMember/>} />
                         <Route path="/HelpProjects" element={<HelpProjects/>} />
-        
         <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
