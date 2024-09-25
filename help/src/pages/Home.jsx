@@ -1,6 +1,7 @@
 // src/components/Home.js
 import SuportPage from './SuportPage';
 
+
 const Home = () => {
   return (
     <>
