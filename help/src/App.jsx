@@ -17,7 +17,7 @@ import OldAgeHome from './pages/OldAgeHome'
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer';
 import ChildrenHospital from './pages/ChildrenHospital';
-import Orphans from './pages/Orphans'
+import Orphans from './pages/Orphans';
 import Carousel from './pages/Carousel';
 import CenterExecutiveCommunityMember from './pages/CenterExecutiveCommunityMember';
 import SuportPage from './pages/SuportPage';
