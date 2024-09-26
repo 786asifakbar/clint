@@ -14,13 +14,12 @@ import DonationForm from './pages/DonationForm';
 import HelpJobBank from './pages/HelpJobBank';
 import LegalAid from './pages/LegalAid';
 import OldAgeHome from './pages/OldAgeHome';
-import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer';
 import ChildrenHospital from './pages/ChildrenHospital';
 import Orphans from './pages/Orphans';
 import Carousel from './pages/Carousel';
 import CenterExecutiveCommunityMember from './pages/CenterExecutiveCommunityMember';
-import SuportPage from './pages/SuportPage';
+import Extra from './pages/Extra';
 import EducationCommunityMember from "./pages/EducationCommunityMember";
 import FundRaisingCommunityMember from './pages/FundRaisingCommunityMember';
 import HealthCommunityMember from './pages/HealthCommunityMember';
@@ -53,7 +52,7 @@ const App = () => {
           <Route path="/OurMember" element={<OurMember />} />
           <Route path="/Carousel" element={<Carousel/>} />
           <Route path="/CenterExecutiveCommunityMember" element={<CenterExecutiveCommunityMember/>} />
-          <Route path="/SuportPage" element={<SuportPage/>} />
+          <Route path="/Extra" element={<Extra/>} />
           <Route path="/PageOfEdu" element={<MainLayout/>} />
             <Route path="/EducationCommunityMember" element={<EducationCommunityMember/>} />
               <Route path="/FundRaisingCommunityMember" element={<FundRaisingCommunityMember/>} />

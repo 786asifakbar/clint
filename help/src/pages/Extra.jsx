@@ -4,14 +4,14 @@ import LeftPro from "./leftPro";
 import HelpProjects from "./HelpProjects";
 
 
-const SuportPage = () => {
+const Extra = () => {
   return (
     <>
       <PassPro 
         backImg="/Web-Icon.png"
         secImg="/bg4.jpg"
         title="Our Work"
-        p={`At Help Human Right Orginazation Of Pakistan , we are deeply committed to supporting human rights organizations in their relentless pursuit of justice, equality, and dignity for all. We believe in the power of collective action to create a world where every individual’s rights are respected, and we’re proud to stand shoulder to shoulder with those leading the charge.
+        p={`At Help Human Rights Of Pakistan , we are deeply committed to supporting human rights organizations in their relentless pursuit of justice, equality, and dignity for all. We believe in the power of collective action to create a world where every individual’s rights are respected, and we’re proud to stand shoulder to shoulder with those leading the charge.
             Our Mission: Helping Where It ’ s Needed Most
             Human rights organizations often work in the most challenging environments, advocating for the vulnerable, fighting against injustice, and raising awareness about global issues. At the heart of our mission is the goal of amplifying their efforts by providing comprehensive support. Whether it’s through logistical help, legal guidance, technological resources, or financial assistance, we are here to ensure they have everything they need to continue their vital work.
            `}
@@ -43,4 +43,4 @@ const SuportPage = () => {
   );
 }
 
-export default SuportPage;
+export default Extra;

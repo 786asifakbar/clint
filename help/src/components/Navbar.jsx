@@ -78,7 +78,7 @@ const Navbar = () => {
                 onClose={handleImpactClose}
               >
                 <MenuItem onClick={handleImpactClose}>
-                  <Link to="/Marriage" className="text-blue-600">Marraige Ceremony</Link>
+                  <Link to="/Marriage" className="text-blue-600">Marriage Ceremony</Link>
                 </MenuItem>
                 <MenuItem onClick={handleImpactClose}>
                   <Link to="/FoodAid" className="text-blue-600">Food Aid</Link>
@@ -124,7 +124,7 @@ const Navbar = () => {
                 <Link to="/contact" className="text-blue-600">Contact</Link>
               </MenuItem>
               <MenuItem onClick={handleMenuClose}>
-                <Link to="/DonatationForm" className="text-blue-600">Donate Now</Link>
+                <Link to="/DonationForm" className="text-blue-600">Donate Now</Link>
               </MenuItem>
             </Menu>
           </>
@@ -153,7 +153,7 @@ const Navbar = () => {
                 onClose={handleImpactClose}
               >
                 <MenuItem onClick={handleImpactClose}>
-                  <Link to="/Marriage" className="text-black">Marraige Ceremony</Link>
+                  <Link to="/Marriage" className="text-black">Marriage Ceremony</Link>
                 </MenuItem>
                 <MenuItem onClick={handleImpactClose}>
                   <Link to="/FoodAid" className="text-black">Food Aid</Link>

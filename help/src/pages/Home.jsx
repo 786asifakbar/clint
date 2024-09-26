@@ -1,5 +1,6 @@
 // src/components/Home.js
-import SuportPage from './SuportPage';
+import Extra from './Extra';
+
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
         Your browser does not support the video tag.
       </video>
     </div>
-    <SuportPage/>
+    <Extra />
     </>
   );
 };
