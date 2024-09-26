@@ -7,7 +7,7 @@ const LeftPro = (props) => {
         <div className="md:w-1/2 flex items-center justify-center">
           <img data-aos="fade-right"
         data-aos-duration="3000"
-            src={props.imgsrc}
+            src={props.img}
             alt="Placeholder"
             className="object-cover w-full h-full"
           />

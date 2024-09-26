@@ -57,7 +57,7 @@ const Navbar = () => {
                 <Link to="/" className="text-blue-600">Home</Link>
               </MenuItem>
               <MenuItem onClick={handleMenuClose}>
-                <Link to="/about" className="text-blue-600">About</Link>
+                <Link to="/About" className="text-blue-600">About</Link>
               </MenuItem>
               <MenuItem onClick={handleMenuClose}>
                 
@@ -65,7 +65,6 @@ const Navbar = () => {
               <Button
                 color="inherit"
                 aria-controls="impact-menu"
-                aria-haspopup="true"
                 onClick={handleImpactClick}
                 endIcon={<ArrowDropDownIcon />}
                 className="text-white"
@@ -79,7 +78,7 @@ const Navbar = () => {
                 onClose={handleImpactClose}
               >
                 <MenuItem onClick={handleImpactClose}>
-                  <Link to="/shadiMubark" className="text-blue-600">Marraige Ceremony</Link>
+                  <Link to="/Marriage" className="text-blue-600">Marraige Ceremony</Link>
                 </MenuItem>
                 <MenuItem onClick={handleImpactClose}>
                   <Link to="/FoodAid" className="text-blue-600">Food Aid</Link>
@@ -119,7 +118,7 @@ const Navbar = () => {
 
               </MenuItem>
               <MenuItem onClick={handleMenuClose}>
-                <Link to="/Ourmember" className="text-blue-600">Our Member</Link>
+                <Link to="/OurMember" className="text-blue-600">Our Member</Link>
               </MenuItem>
               <MenuItem onClick={handleMenuClose}>
                 <Link to="/contact" className="text-blue-600">Contact</Link>
@@ -141,7 +140,6 @@ const Navbar = () => {
               <Button
                 color="inherit"
                 aria-controls="impact-menu"
-                aria-haspopup="true"
                 onClick={handleImpactClick}
                 endIcon={<ArrowDropDownIcon />}
                 className="text-white"
@@ -155,7 +153,7 @@ const Navbar = () => {
                 onClose={handleImpactClose}
               >
                 <MenuItem onClick={handleImpactClose}>
-                  <Link to="/shadiMubark" className="text-black">Marraige Ceremony</Link>
+                  <Link to="/Marriage" className="text-black">Marraige Ceremony</Link>
                 </MenuItem>
                 <MenuItem onClick={handleImpactClose}>
                   <Link to="/FoodAid" className="text-black">Food Aid</Link>

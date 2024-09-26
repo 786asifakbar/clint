@@ -11,7 +11,7 @@ const PassPro = (props) => {
     <>
       <div className=''>
         <div className="relative bg-cover bg-no-repeat bg-center min-h-52" data-aos="fade-up"
-          data-aos-duration="3000" style={{backgroundImage: `url(${props.backImgsrc})`}}>
+          data-aos-duration="3000" style={{backgroundImage: `url(${props.backImg})`}}>
           {/* Color overlay */}
           <div className="absolute inset-0 bg-gray-40 opacity-50"> </div>
           <div className="lg:w-1/2 lg:pr-8"></div>

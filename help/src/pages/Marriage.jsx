@@ -1,13 +1,13 @@
 import PassPro from "./PassPro";
 
 
-function ShadiMubark() {
+function Marriage() {
   return (
     <>
 <PassPro 
-        backImgsrc="/Web-Icon.png"
+        backImg="/Web-Icon.png"
         secImg="/hall.jpg"
-        title="Married Cermony of Poor People"
+        title="Marriages of Poor People"
         p={`Our program is committed to helping poor individuals overcome financial obstacles related to marriage.
               We provide essential support to ensure they can afford the costs associated with wedding ceremonies and
               related functions.
@@ -23,4 +23,4 @@ function ShadiMubark() {
     </>
   );
 }
-export default ShadiMubark;
+export default Marriage;

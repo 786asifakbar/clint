@@ -48,7 +48,7 @@ const Contact = () => {
         <p className="mb-4">Contact us at:</p>
         <p className="mb-2">Phone: (123) 456-7890</p>
         <p className="mb-2">Email: 786asifakbar53@gmail.com</p>
-        <p className="mb-4">Address: FC Building, Main University Rd, near Askari Park, Eissa Nagri, Karachi, Karachi City, Sindh 75270, Pakistan</p>
+        <p className="mb-4">Address: FC Building, Main University Rd, near Kashmir Park, Karachi, 75270 , Pakistan</p>
 
         {/* Google Map Integration */}
         <div className="h-64 w-full">

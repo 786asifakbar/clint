@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import OurMember from './pages/OurMember';
 import Contact from "./pages/Contact";
-import ShadiMubark from './pages/ShadiMubark';
+import Marriage from './pages/Marriage';
 import FoodAid from './pages/FoodAid';
 import HelpEducation from './pages/HelpEducation';
 import Health from './pages/Health';
@@ -38,7 +38,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
-          <Route path="/ShadiMubark" element={<ShadiMubark />} />
+          <Route path="/Marriage" element={<Marriage />} />
           <Route path="/FoodAid" element={<FoodAid />} />
           <Route path="/HelpEducation" element={<HelpEducation/>} />
           <Route path="/Health" element={<Health/>} />

@@ -8,7 +8,7 @@ const members = [
   {
        
     id: 1,
-    name: 'Ghulam Mehmood',
+    name: "",
     designation: 'Chairman ',
     community: 'Center Executive',
     image: 'https://via.placeholder.com/150', // Replace with actual image URL
@@ -16,7 +16,7 @@ const members = [
   {
        
     id: 2,
-    name: 'Allama Mohammad Tahir ',
+    name: '',
     designation: 'President',
     community: 'Center Executive',
     image: 'https://via.placeholder.com/150', // Replace with actual image URL
@@ -24,7 +24,7 @@ const members = [
   {
        
     id: 3,
-    name: 'Umair Paracha ',
+    name:'',
     designation: 'General Security',
     community: 'Center Executive',
     image: 'https://via.placeholder.com/150', // Replace with actual image URL
@@ -33,18 +33,13 @@ const members = [
   {
        
     id: 4,
-    name: 'Saifullah Paracha ',
+    name: '',
     designation: 'Joined Security',
     community: 'Center Executive',
     image: 'https://via.placeholder.com/150', // Replace with actual image URL
   },
    
 ];
-
-
-// cc member 1 Voice Chairman  Umair Paracha 2 Finence community Mrs Sumaira Mehmood 3 Fatima Mehmood office security 5   
-
-
 
 const CenterExecutiveCommunityMember = () => {
   return (

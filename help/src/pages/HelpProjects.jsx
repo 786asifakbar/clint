@@ -6,7 +6,7 @@ const services = [
   { name: "Orphanage Home", icon: "🏠", link: "/Orphans" },
   { name: "Old Age Home", icon: "👴👵", link: "/OldAgeHome" },
   { name: "Ration Distribution", icon: "🍞", link: "/FoodAid" },
-  { name: "Marriage Support", icon: "💍", link: "/ShadiMubark" },
+  { name: "Marriage Support", icon: "💍", link: "/Marriage" },
   { name: "Free Education", icon: "📚", link: "/HelpEducation" },
   { name: "Legal Aid Support", icon: "⚖️", link: "/LegalAid" },
   // { name: "Ambulance Service", icon: "🚑", link: "/AmbulanceService" },

@@ -5,7 +5,7 @@ const WaterPlant = () => {
   return (
     <>
       <PassPro 
-        backImgsrc="/Web-Icon.png"
+        backImg="/Web-Icon.png"
         secImg="/waterplant1.jpeg"
         title="Water Plant"
         p={`A water treatment plant is a facility that processes raw water to make it safe for human consumption,
@@ -22,7 +22,7 @@ const WaterPlant = () => {
       />
     
       <LeftPro 
-        imgsrc="/waterplant.jpeg"
+        img="/waterplant.jpeg"
         heading="Your Donations Help Us Create This Impact"
         pera={`Investment in Water Treatment Plants
                Investment in water treatment plants can vary widely depending on the size of the plant, the scope of the necessary upgrades, and the specific technologies implemented. Generally, investments cover

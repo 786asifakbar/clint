@@ -52,17 +52,17 @@ const Footer = () => {
             </a>
           </div>
            <div className="flex space-x-4 mt-4">
-            <a href="https://www.youtube.com/@helphumanrights" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@helphumanrights" target="_blank">
               <IconButton aria-label="Youtube" className="text-white">
                 <YouTube />
               </IconButton>
             </a>
-            <a href="https://www.instagram.com/officialhrop/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/officialhrop/" target="_blank" >
               <IconButton aria-label="Instagram" className="text-white">
                 <Instagram />
               </IconButton>
             </a>
-            <a href="https://www.linkedin.com/in/helphuman-right-8821b2288/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/helphuman-right-8821b2288/" target="_blank">
               <IconButton aria-label="LinkedIn" className="text-white">
                 <LinkedIn />
               </IconButton>

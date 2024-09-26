@@ -18,7 +18,7 @@ const HelpJobBank = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <button
             className="bg-red-500 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-2xl transition duration-300"
-            onClick={() => handleButtonClick('jobseeker')}
+            onClick={() => handleButtonClick('Job seeker')}
           >
             Job Seeker
           </button>
@@ -32,7 +32,7 @@ const HelpJobBank = () => {
       )}
 
       {/* Conditionally Render Forms */}
-      {showForm === 'jobseeker' && <JobSeekerForm />}
+      {showForm === 'Job seeker' && <JobSeekerForm />}
       {showForm === 'hiring' && <HiringRequestForm />}
 
       {/* Add a "Back" Button to return to the main selection */}
